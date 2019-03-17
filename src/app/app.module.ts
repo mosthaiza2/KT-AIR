@@ -9,14 +9,15 @@ import { HomePage } from '../pages/home/home';
 import {AboutPage} from '../pages/about/about';
 import {ContactPage} from '../pages/contact/contact';
 import {LocationPage} from '../pages/location/location';
-
+import {SlidesPage} from '../pages/slides/slides';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AboutPage,
     ContactPage,
-    LocationPage
+    LocationPage,
+    SlidesPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +29,8 @@ import {LocationPage} from '../pages/location/location';
     HomePage,
     AboutPage,
     ContactPage,
-    LocationPage
+    LocationPage,
+    SlidesPage
   ],
   providers: [
     StatusBar,
