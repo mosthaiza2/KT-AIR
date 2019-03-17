@@ -1,14 +1,24 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      KT-AIR
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="showhead">
+    <img src="assets/imgs/logo.png" alt="">
+    <p>
+      Welcome to KT-AIR
+    </p>
+  </div>
+ <ion-list>
+   <ion-item (click)="gotoabout()">
+      <ion-icon name="logo-facebook"></ion-icon> KT-AIR
+   </ion-item> 
+   <ion-item>
+      <ion-icon name="logo-googleplus"></ion-icon> KT-AIR@gmail.com
+   </ion-item> 
+ </ion-list>
 </ion-content>
