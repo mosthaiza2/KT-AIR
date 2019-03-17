@@ -11,5 +11,11 @@
 </ion-header>
 
 <ion-content padding>
-
+  <ion-list>
+    <ion-list-header> Our Customers </ion-list-header>
+      <ion-item *ngFor="let c of allCusts" (click)=showCustomer(c.id)>
+          <h2>{{c.id}}: {{c.name}}</h2>
+          <p>Tel. {{c.tel}}</p>
+      </ion-item>  
+  </ion-list>
 </ion-content>
